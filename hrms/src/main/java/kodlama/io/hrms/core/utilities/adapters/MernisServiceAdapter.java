@@ -1,0 +1,19 @@
+
+package kodlama.io.hrms.core.utilities.adapters;
+
+
+
+import org.springframework.stereotype.Service;
+
+
+@Service
+public class MernisServiceAdapter implements ValidationService {
+
+	@Override
+	public Boolean validationByMernis(String identityNumber, String firstName, String lastName, String birth_Date) {
+		return true;
+		
+		
+	}
+
+}
